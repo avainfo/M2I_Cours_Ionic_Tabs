@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/standalone';
-import { ExploreContainerComponent } from '../explore-container/explore-container.component';
+import { ExploreContainerComponent } from '../../explore-container/explore-container.component';
+import {TabsPage} from "../../tabs/tabs.page";
 
 @Component({
   selector: 'app-tab3',
@@ -8,6 +9,8 @@ import { ExploreContainerComponent } from '../explore-container/explore-containe
   styleUrls: ['tab3.page.scss'],
   imports: [IonHeader, IonToolbar, IonTitle, IonContent, ExploreContainerComponent],
 })
-export class Tab3Page {
-  constructor() {}
+export class Tab3Page extends TabsPage {
+  constructor() {
+    super();
+  }
 }

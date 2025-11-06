@@ -1,0 +1,7 @@
+{
+  "name": "M2I_Cours_Ionic_Tabs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
